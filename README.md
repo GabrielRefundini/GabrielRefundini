@@ -1,17 +1,57 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif), I'm Gabriel Refundini
-=========================================================================================================================================
+```markdown
+# ⚡ SYSTEM INITIALIZATION ⚡
 
-IT Auditor | AI Agents | Information Security🔎
--------------------------------------
+```console
+gabriel@system:~$ whoami
+Gabriel Refundini
 
-* 🌍  I'm based in Brazil
+gabriel@system:~$ cat /sys/class/identity/role
+IT Auditor | AI Agents | Information Security 🔎
 
-### Skills
+gabriel@system:~$ traceroute -m 1 location
+🌍 Tracing route to: Brazil [OK]
 
-<p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" width="36" height="36" alt="Linux" /></a>
-</p>
+```
 
-### Socials
+---
 
-</a> <a href="https://www.linkedin.com/in/gabriel-refundini" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://www.x.com/Yazalaque" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a></p>
+### 🗃️ `[~/skills]`
+
+```json
+{
+  "system_override": {
+    "core_competencies": [
+      "Information Security",
+      "IT Audit",
+      "AI Agents Integration"
+    ],
+    "languages": [
+      "Python",
+      "JavaScript",
+      "Bash"
+    ],
+    "tools_and_os": [
+      "Linux",
+      "Git"
+    ]
+  }
+}
+
+```
+
+---
+
+### 🌐 `[~/network_connections]`
+
+```bash
+gabriel@system:~$ netstat -ano | grep "ESTABLISHED"
+tcp        0      0 0.0.0.0:443       [+] LINKEDIN      => [https://linkedin.com/in/gabriel-refundini](https://linkedin.com/in/gabriel-refundini)
+tcp        0      0 0.0.0.0:443       [+] X_TWITTER     => [https://x.com/Yazalaque](https://x.com/Yazalaque)
+
+```
+
+```console
+gabriel@system:~$ ./ping_me.sh
+Waiting for encrypted transmission... ✉️
+
+```
